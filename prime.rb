@@ -2,6 +2,7 @@
 def prime?(i)
   if <= 1 
     false 
-  elsif 
+  else 
+    true 
   end 
 end
