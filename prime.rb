@@ -2,7 +2,8 @@
 def prime?(i)
   if i <= 1 
     false 
-  elsif i % 
+  elsif i % i == 0 
+    false 
   end
   true 
 end
