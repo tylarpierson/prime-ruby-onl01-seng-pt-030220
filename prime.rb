@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(num)
   if num <= 1 || num == 0 || num == 1 
-    false 
+    return false 
   elsif (2..num - 1).each do |i| 
     if num % i == 0 
-      false 
+      return false 
     end 
   end 
 end 
