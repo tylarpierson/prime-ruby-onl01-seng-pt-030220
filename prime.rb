@@ -1,5 +1,7 @@
 # Add  code here!
 def prime?(i)
-  if <= 0 
+  if <= 1 
+    false 
+  elsif 
   end 
 end
